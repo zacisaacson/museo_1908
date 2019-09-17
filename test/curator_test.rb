@@ -132,10 +132,6 @@ class CuratorTest < Minitest::Test
 
     assert_equal [@photo_2, @photo_3, @photo_4], @curator.photographs_taken_by_artist_from("United States")
     assert_equal [], @curator.photographs_taken_by_artist_from("Argentina")
-
   end
-
-
-
 
 end
