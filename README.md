@@ -5,9 +5,16 @@
 * Fork this Repository
 * Clone YOUR fork
 * Compete the activity below
+* Commit code every 15 minutes
 * Push your solution to your fork
-* Submit a pull request from your repository to the turingschool-examples repository
+* Submit a pull request AT NOON (not before) from your repository to the turingschool-examples repository
   * Make sure to put your name in your PR!
+
+
+## Pay Careful Attention
+
+You must create the methods exactly as described below. You may make additional helper methods if you like, but the interfaces we describe below are expected to be built according to the following interaction patterns. Pay careful attention to the naming of methods, the types of parameters passed, and their return values!
+
 
 ### Iteration 1
 
