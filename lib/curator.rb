@@ -42,11 +42,9 @@ class Curator
     artists_from = @artists.find_all do |artist|
       country == artist.country
     end
-      photos_from = []
-      artists_from.each do |artist|
-      photos_from << find_photographs_by_artist(artist)
-    end
-    photos_from.flatten
+      artists_from.map do |artist|
+      find_photographs_by_artist(artist)
+    end.flatten
   end
 
 
